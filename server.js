@@ -40,6 +40,10 @@ app.get('/about',(req,res)=>{
 	res.render('about.hbs');
 });
 
+app.get('/about',(req,res)=>{
+	res.render('projects.hbs');
+});
+
 app.get('/bad',(req,res)=>{
 	res.send({
 		err:'Unable to fulfill request'
